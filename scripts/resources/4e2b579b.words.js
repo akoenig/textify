@@ -16,7 +16,7 @@ define([
         'network',
         'love',
         'honesty',
-        'piece',
+        'pieces',
         'friends',
         'dogs',
         'cats',
