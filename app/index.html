@@ -1,0 +1,37 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>textify</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+        
+        <p class="loading">I'm drawing ...</p>
+
+        <canvas id="board" data-paper-resize="true"></canvas>
+
+        <footer>
+            <p class="row">
+                Click <a href="index.html">here</a> for a new drawing ;) - The source is on the beloved <a href="http://github.com/akoenig/textify">GitHub</a>. - &copy; 2012 <a href="http://profile.lochkartenstanzer.de">André König</a>.
+            </p>
+        </footer>
+
+        <!-- build:js scripts/paper.js -->
+        <script src="scripts/vendor/paper.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/amd-app.js -->
+        <script data-main="scripts/main" src="scripts/vendor/require.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>

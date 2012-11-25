@@ -1,0 +1,80 @@
+/*!
+ * textify
+ *
+ * Copyright(c) 2012 New York City, USA - All rights reserved.
+ *
+ * Author: André König <andre.koenig@gmail.com>
+ *
+ */
+
+@import "utils";
+
+* {
+    margin:0;
+    padding:0;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
+$footer-height:30px;
+
+html, body {
+    height:100%;
+    min-height:100%;
+}
+
+body {
+    height:100%;
+    overflow:hidden;
+    position:relatikve;
+}
+
+.loading {
+    font-family:'Lato', sans-serif;
+    position:absolute;
+    height:30%;
+    left:50%;
+    margin:-15% 0 0 -25%;
+    opacity:.5;
+    text-align:center;
+    top:60%;
+    width:50%;
+}
+
+canvas {
+    background:#fff;
+    display:none;
+    position:absolute;
+    height:100%;
+    left:0;
+    top:0;
+    width:100%;
+    z-index:1;
+}
+
+footer {
+    background:rgba(255, 255, 255, .8);
+    border:solid #efefef;
+    border-width:1px 0 1px;
+    bottom:10px;
+    clear:both;
+    font-family:'Lato', sans-serif;
+    font-size:80%;
+    height:$footer-height;
+    line-height:$footer-height;
+    margin-top:-$footer-height;
+    position:fixed;
+    text-align:center;
+    opacity:.5;
+    width:100%;
+    z-index:2;
+    @include transition;
+
+    &:hover {
+        opacity:1;
+    }
+
+    a {
+        color:#ff007d;
+    }
+}
