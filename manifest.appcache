@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Time: Sun Nov 25 2012 18:52:00 GMT+0100 (CET)
+# Time: Sun Nov 25 2012 20:50:01 GMT+0100 (CET)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
@@ -21,6 +21,7 @@ CACHE MANIFEST
 #  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
 
 CACHE:
+http://www.google-analytics.com/ga.js
 scripts/82c869ee.amd-app.js
 scripts/89686ade.paper.js
 styles/f8ca5483.main.css
